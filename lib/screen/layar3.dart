@@ -20,8 +20,8 @@ class _LayartigaState extends State<Layartiga> {
         backgroundColor: Colors.blue,
         centerTitle: true,
       ),
-      body: Center(
-        child: Container(
+      body: 
+         Container(
           child: Column(
             children: [
               TextFormField(
@@ -56,6 +56,7 @@ class _LayartigaState extends State<Layartiga> {
                     ),
                   ));
                 },
+                child: const Text('SHOW SNACK'),
               ),
               ElevatedButton(
                   onPressed: () {
@@ -66,7 +67,6 @@ class _LayartigaState extends State<Layartiga> {
             ],
           ),
         ),
-      ),
     );
   }
 }

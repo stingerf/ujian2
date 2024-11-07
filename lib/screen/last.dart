@@ -21,7 +21,7 @@ class LastPage extends StatelessWidget {
                 leading: const Icon(Icons.list),
                 title: Text(
                   "Kebudayaan indonesia sangat beragam dengan macam karyanya",
-                  style: TextStyle(fontSize: 20, color: Colors.white),
+                  style: TextStyle(fontSize: 20, color: Colors.black),
                 ),
                 subtitle: Text('Karya : anatomi'),
                 );
